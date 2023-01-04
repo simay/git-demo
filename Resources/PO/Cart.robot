@@ -7,3 +7,4 @@ Verify Product Added
 
 Proceed to Checkout
     Click Button              name=proceedToRetailCheckout
+    wait until page contains  something
