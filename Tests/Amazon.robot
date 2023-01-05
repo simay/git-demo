@@ -44,3 +44,6 @@ Logged out user should be asked to sign in to check out
     AmazonApp.Select Product from Search Results
     AmazonApp.Add Product to Cart
     AmazonApp.Begin Checkout
+
+Feature 1 Test
+    log     doing feature 1
