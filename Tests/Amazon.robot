@@ -24,11 +24,11 @@ Should be able to login
     AmazonApp.Begin Checkout
     AmazonApp.Login     ${LOGIN_EMAIL}      ${LOGIN_PASSOWORD}
 Logged out user should be able to search for products
-    [Tags]  Smoke
+    [Tags]  Smoke Search
     AmazonApp.Search for Products
 
 Logged out user should be able to view a product
-    [Tags]  Smoke
+    [Tags]  Smoke View
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results
 
@@ -39,7 +39,7 @@ Logged out user should be able to add product to cart
     AmazonApp.Add Product to Cart
 
 Logged out user should be asked to sign in to check out
-    [Tags]  Smoke
+    [Tags]  Smoke Checkout
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results
     AmazonApp.Add Product to Cart
