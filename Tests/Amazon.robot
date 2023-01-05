@@ -24,7 +24,7 @@ Should be able to login
     AmazonApp.Begin Checkout
     AmazonApp.Login     ${LOGIN_EMAIL}      ${LOGIN_PASSOWORD}
 Logged out user should be able to search for products
-    [Tags]  Smoke Products
+    [Tags]  Smoke Search
     AmazonApp.Search for Products
 
 Logged out user should be able to view a product
